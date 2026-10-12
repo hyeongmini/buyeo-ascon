@@ -53,18 +53,7 @@ p { margin: 0; }
   height: 84px; display: flex; align-items: center; justify-content: space-between;
 }
 .logo { display: flex; align-items: center; gap: 12px; }
-.logo-mark {
-  width: 40px; height: 40px;
-  border: 2px solid var(--blue);
-  display: flex; align-items: center; justify-content: center;
-  font-family: var(--mono); font-weight: 700; font-size: 14px; color: var(--blue);
-  position: relative;
-}
-.logo-mark::before, .logo-mark::after {
-  content: ""; position: absolute; width: 6px; height: 6px; border: 1px solid var(--blue);
-}
-.logo-mark::before { top: -4px; left: -4px; border-width: 1px 0 0 1px; }
-.logo-mark::after { bottom: -4px; right: -4px; border-width: 0 1px 1px 0; }
+.logo-img { height: 46px; width: auto; display: block; }
 .logo-text-wrap { display: flex; flex-direction: column; line-height: 1.15; }
 .logo-wordmark { font-size: 19px; font-weight: 800; color: var(--slate-deep); letter-spacing: -.01em; }
 .logo-wordmark span { color: var(--blue); }
@@ -453,3 +442,5 @@ p { margin: 0; }
   .bom-table td { padding: 4px 0; border: none; }
   .bom-name { width: auto; }
 }
+
+.layer-footnote { margin: 22px 0 0; font-size: 13px; line-height: 1.6; color: var(--ink-soft); }
