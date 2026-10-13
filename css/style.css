@@ -140,7 +140,7 @@ p { margin: 0; }
 .index-rail { border-top: 2px solid var(--slate-deep); }
 .index-row {
   position: relative;
-  display: grid; grid-template-columns: 60px 76px 1fr 320px 32px;
+  display: grid; grid-template-columns: 56px 68px minmax(110px,1fr) minmax(320px,auto) 28px;
   align-items: center; gap: 24px;
   padding: 30px 0 30px 24px; border-bottom: 1px solid var(--line);
   transition: background .2s ease;
@@ -163,6 +163,7 @@ p { margin: 0; }
 .index-row:hover .index-num { -webkit-text-stroke-color: var(--blue); }
 .index-title { font-size: 24px; font-weight: 800; color: var(--slate-deep); }
 .index-desc { font-size: 17.5px; line-height: 1.65; color: var(--ink-soft); }
+@media (min-width: 900px) { .index-desc { white-space: nowrap; } }
 .index-arrow { font-size: 23px; font-weight: 700; color: var(--signal); transition: transform .2s ease; }
 .index-row:hover .index-arrow { transform: translateX(6px); }
 
