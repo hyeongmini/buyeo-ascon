@@ -445,3 +445,9 @@ p { margin: 0; }
 }
 
 .layer-footnote { margin: 22px 0 0; font-size: 16px; line-height: 1.6; color: var(--ink-soft); }
+
+.cert-award { display: grid; grid-template-columns: 1fr 300px; gap: 40px; align-items: start; }
+.cert-photo { display: block; border: 1px solid var(--line); background: #fff; padding: 8px; box-shadow: 0 14px 34px rgba(16,21,30,.12); }
+.cert-photo img { display: block; width: 100%; height: auto; }
+.cert-photo span { display: block; margin-top: 8px; text-align: center; font-size: 15px; font-weight: 700; color: var(--blue-deep); }
+@media (max-width: 760px) { .cert-award { grid-template-columns: 1fr; gap: 24px; } .cert-photo { max-width: 340px; } }
