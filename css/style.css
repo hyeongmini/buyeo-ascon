@@ -460,4 +460,4 @@ p { margin: 0; }
 /* 하위 페이지 상단 배너 배경 사진 */
 .page-banner-bg { position: absolute; inset: 0; }
 .page-banner-bg img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.page-banner-bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, color-mix(in srgb, var(--slate-deep) 92%, transparent) 0%, color-mix(in srgb, var(--slate-deep) 70%, transparent) 100%); }
+.page-banner-bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, color-mix(in srgb, var(--slate-deep) 78%, transparent) 0%, color-mix(in srgb, var(--slate-deep) 28%, transparent) 100%); }
